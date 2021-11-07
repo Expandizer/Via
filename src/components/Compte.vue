@@ -4,11 +4,11 @@
         <br>
         <br>
         <body class="bg-success">
-            <div id="first-part">
+            <div id="first-part" class="pb-5">
                 <div  class="row">
-                    <div class="col-md-7 text-center pt-5 pb-5 ">
-                        <p class="text-center fs-1 pt-5 mt-5">Mon compte Via</p>
-                        <p class="text-center">Pour plus d'accessibilité et pour ne rater aucune offre</p>
+                    <div class="col-md-7 pt-5 pb-5 ">
+                        <p class="text-center text-light fs-1 pt-5 mt-5">Mon compte Via</p>
+                        <p class="text-center text-light">Pour plus d'accessibilité et pour ne rater aucune offre</p>
                     </div>
                     <div class="col-md-5 text-center d-flex justify-content-center">
                             <form  method="POST" class=" p-5 mt-5 w-100  bg-dark text-light rounded">
@@ -18,11 +18,11 @@
                                 </div>
                                 <div class="form-group text-start row">
                                     <label for="inputPassword">Password :</label> 
-                                    <div class="col-9">
-                                        <input v-if="showPassword" class=" text-light border-0 border-bottom border-success  bg-dark fs-5" type="text" v-model="password" required />
-                                        <input  v-else type="password" class="text-light border-0 border-bottom border-success  bg-dark fs-5" placeholder="Password" v-model="password">
+                                    <div class="col-8">
+                                        <input v-if="showPassword" class=" text-light border-0 border-bottom border-success w-100 bg-dark fs-5" type="text" v-model="password" required />
+                                        <input  v-else type="password" class="text-light border-0 border-bottom border-success w-100 bg-dark fs-5" placeholder="Password" v-model="password">
                                     </div>
-                                    <div class="col">
+                                    <div class="col-4">
                                     <button class="btn text-light bg-success" v-on:click.stop.prevent="showPassword = !showPassword" ><font-awesome-icon icon="eye"/>
                                     </button>
                                     </div>
@@ -40,7 +40,6 @@
                     </div>
                 </div>
             </div>
-            <br>
             <p class="text-light bg-dark w-100 text-center pt-3 pb-3">Tous les avantages qui vous sont réservés...</p>
             <div class="container ">
                 <div id="get-round" class="bg-dark w-auto h-auto p-5 pb-4">
@@ -66,8 +65,8 @@
             <br>
         </body>
         <p class=" m-0 w-auto text-center bg-dark pb-4 pt-3 text-white "> copyright &copy; 2021 Via</p>
-</div>
     </div>
+</div>
 </template>
 
 
@@ -110,10 +109,10 @@ form{
     color:blue;
 }
 #first-part{
-background-image: url("");
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+    background-image: url("https://www.oncf.ma/var/oncf/storage/images/www-oncf-ma/entreprise/pour-une-nouvelle-mobilite-durable/24750-19-fre-FR/Pour-une-nouvelle-mobilite-durable.jpg");
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover ;
 }
 #get-round{
     border-radius: 20px;
