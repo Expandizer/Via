@@ -33,7 +33,7 @@ import Compte from './components/Compte.vue'
 import Body from './components/Body.vue'
 import About_via from './components/About_via.vue'
 import Account_creation from './components/Account_creation.vue'
-import Covid from '/components/Covid.vue'
+import Covid from './components/Covid.vue'
 
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap-vue/dist/bootstrap-vue.css"

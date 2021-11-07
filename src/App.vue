@@ -1,13 +1,13 @@
 <template>
-  <About_via/>
+  <Account_creation/>
 </template>
 
 <script>
-import About_via from './components/About_via.vue'
+import Account_creation from './components/Account_creation.vue'
 export default {
   name: 'app',
   components: {
-    About_via,
+    Account_creation,
   }
 }
 </script>
