@@ -1,5 +1,11 @@
 # via
 
+
+## Bugs and Issues
+```
+The routing still isn't functioning so the pages aren't related
+```
+
 ## Project setup
 ```
 npm install
