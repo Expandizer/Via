@@ -30,7 +30,6 @@ import {faCogs} from '@fortawesome/free-solid-svg-icons'
 import {faBullseye} from '@fortawesome/free-solid-svg-icons'
 
 import Compte from './components/Compte.vue'
-import HelloWorld from './components/HelloWorld.vue'
 import Body from './components/Body.vue'
 import About_via from './components/About_via.vue'
 import Account_creation from './components/Account_creation.vue'
@@ -46,9 +45,8 @@ Vue.use(VueRouter);
 const routes = [
   {path: '/', component: Body},
   {path: '/Account', component: Compte },
-  {path: '/HelloWorld', component: HelloWorld },
   {path: '/About1', component: About_via },
-  {path: '/Covid', component: Covid},
+  {path: '/Covid', component: Covid },
   {path: '/Create_account', component: Account_creation}
 ]
 
