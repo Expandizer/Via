@@ -33,7 +33,6 @@ import Compte from './components/Compte.vue'
 import HelloWorld from './components/HelloWorld.vue'
 import Body from './components/Body.vue'
 import About_via from './components/About_via.vue'
-import About_via2 from './components/About_via2.vue'
 import Account_creation from './components/Account_creation.vue'
 import Covid from '/components/Covid.vue'
 
@@ -49,9 +48,8 @@ const routes = [
   {path: '/Account', component: Compte },
   {path: '/HelloWorld', component: HelloWorld },
   {path: '/About1', component: About_via },
-  {path: '/About2', component: About_via2 },
+  {path: '/Covid', component: Covid},
   {path: '/Create_account', component: Account_creation}
-  {path: '/Covid', component: Covid}
 ]
 
 const router = new VueRouter({
@@ -96,7 +94,7 @@ Vue.use(BootstrapVue);
 
 
 new Vue({
-  el:'#Via',
+  el:'#app',
   router,
   render: h => h(App),
-}).$mount('#Via')
+}).$mount('#app')

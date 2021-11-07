@@ -5,7 +5,7 @@
 <script>
 import About_via from './components/About_via.vue'
 export default {
-  name: 'App',
+  name: 'app',
   components: {
     About_via,
   }
